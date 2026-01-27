@@ -7,15 +7,61 @@
 }
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.87);
-  background: linear-gradient(90deg, #070707 5%, #0d0022 50%, #070707 95%);
+  color: var(--second-base-color);
+  background: linear-gradient(125deg,
+  var(--fbc-dark-variant) 0%, 
+  var(--tbc-dark-variant) 20%, 
+  var(--third-base-color) 30%, 
+  var(--tbc-dark-variant) 60%,
+  var(--fbc-dark-variant) 100%);
+
+  --fbc-dark-variant: #000000;
+  --first-base-color: #101010;
+  --fbc-light-variant: #202020;
+
+  --sbc-dark-variant: #aaa;
+  --second-base-color: #ccc;
+  --sbc-light-variant: #fff;
+
+  --tbc-dark-variant: #0d0022;
+  --third-base-color: #2a006e;
+  --tbc-light-variant: #4700b9;
+
+  --header-bg: rgba(28, 28, 28, 0.7);
+  --about-bg: rgba(78, 78, 78, 0.3);
 }
 
 #root {
   place-items: center;
   margin: 0 auto;
   padding: 0rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes appear {
+  0% {
+    transform: translateY(-2rem);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25rem); 
+  }
+  100% {
+    transform: translateX(0);
+  }
 }

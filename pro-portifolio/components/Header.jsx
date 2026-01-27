@@ -3,7 +3,7 @@ function Header() {
   return (
     <>
       <header>
-        <nav>
+        <nav className="container">
           <a href="./Hero.jsx">Início</a>
           <a href="./Hero.jsx">Sobre</a>
           <a href="#">Projetos</a>
