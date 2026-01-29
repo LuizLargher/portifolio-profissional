@@ -5,7 +5,7 @@ function About() {
     <>
       <section id="about">
         <div className="text container">
-          <h2>Sobre Mim</h2>
+          <h2 className="shine">sobre mim</h2>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
             similique neque perferendis reiciendis eveniet, iusto molestias at

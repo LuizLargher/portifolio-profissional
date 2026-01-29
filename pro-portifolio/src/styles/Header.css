@@ -8,6 +8,7 @@ header {
   backdrop-filter: blur(8px);
   position: fixed;
   z-index: 1;
+  animation: header-appear 3s ease;
 
   nav {
     gap: 2rem;
