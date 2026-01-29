@@ -1,4 +1,4 @@
-import "../src/styles/Exp.css";
+import "../styles/Exp.css";
 
 function Exp() {
   return (

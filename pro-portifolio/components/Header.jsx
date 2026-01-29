@@ -1,14 +1,14 @@
-import "../src/styles/Header.css";
+import "../styles/Header.css";
 function Header() {
   return (
     <>
       <header>
         <nav className="container">
-          <a href="./Hero.jsx">Início</a>
-          <a href="./About.jsx">Sobre</a>
-          <a href="#">Projetos</a>
+          <a href="#hero">Início</a>
+          <a href="#about">Sobre</a>
+          <a href="#projects">Projetos</a>
           <a href="#">Habilidades</a>
-          <a href="./Exp.jsx">Experiências</a>
+          <a href="#exp">Experiências</a>
           <a href="#">Contato</a>
         </nav>
       </header>

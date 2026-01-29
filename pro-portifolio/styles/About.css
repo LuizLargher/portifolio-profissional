@@ -3,7 +3,7 @@
   background: var(--about-bg);
   backdrop-filter: blur(8px);
   border-radius: 10px;
-  margin: 8rem 0rem;
+  margin: 10rem 0rem;
   animation: boom 3s ease;
   box-shadow: 0rem 0rem 1rem var(--tbc-dark-variant);
 
@@ -12,10 +12,10 @@
     padding: 2rem;
 
     p {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       font-weight: 100;
       text-indent: 1.5rem;
-      line-height: 2.5rem;
+      line-height: 2rem;
       margin: 1rem 0rem;
     }
   }
@@ -28,7 +28,7 @@
 
     div {
       width: 100%;
-      min-height: 18rem;
+      min-height: 20rem;
       background: linear-gradient(
         125deg,
         var(--tbc-light-variant) 0%,
@@ -48,7 +48,7 @@
       }
 
       p {
-        font-size: 1.1rem;
+        font-size: 1rem;
       }
     }
 
