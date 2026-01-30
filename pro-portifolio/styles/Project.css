@@ -1,5 +1,6 @@
 #projects {
-  margin: 10rem 0rem;
+  max-width: 85%;
+  margin: 5rem 0rem;
 
   .project-container {
     flex-direction: column;
@@ -13,70 +14,76 @@
     margin: 3rem 0rem;
     flex-wrap: wrap;
   }
-}
-.project-card {
-  max-width: 25rem;
-  min-height: 35rem;
-  padding: 1rem;
-  border-radius: 10px;
-  border: 1px solid var(--tbc-dark-variant);
-  box-shadow: 0rem 0.2rem 1rem var(--fbc-dark-variant);
-  background-color: var(--card-bg);
-  flex-direction: column;
-  gap: 1rem;
-  animation: 5s roll forwards;
-
-  img {
+  
+  .project-card {
+    max-width: 25rem;
+    min-height: 35rem;
+    padding: 1rem;
     border-radius: 10px;
-  }
-
-  h2 {
-    font-size: 1.2rem;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 500;
-  }
-
-  div {
+    border: 1px solid var(--tbc-dark-variant);
+    box-shadow: 0rem 0.2rem 1rem var(--fbc-dark-variant);
+    background-color: var(--card-bg);
     flex-direction: column;
-
-    p {
-      font-size: 0.8rem;
-      font-weight: 400;
-      text-indent: 2rem;
-      padding: 0rem 0.8rem;
-      text-align: justify;
+    gap: 1rem;
+    animation: 5s roll forwards;
+  
+    img {
+      border-radius: 10px;
     }
-
+  
+    h2 {
+      font-size: 1.2rem;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+  
     div {
-      margin: 2rem 0rem;
-      padding: 0.8rem;
-      flex-direction: row;
-
-      a {
-        width: 45%;
-        color: var(--sbc-dark-variant);
-        text-transform: uppercase;
-        background-color: var(--fbc-dark-variant);
-        padding: 0.8rem;
-        text-align: center;
+      flex-direction: column;
+  
+      p {
         font-size: 0.8rem;
-        border-radius: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        img {
-            width: 25px;
+        font-weight: 400;
+        text-indent: 2rem;
+        padding: 0rem 0.8rem;
+        text-align: justify;
+      }
+  
+      div {
+        margin: 2rem 0rem;
+        padding: 0.8rem;
+        flex-direction: row;
+  
+        a {
+          width: 45%;
+          color: var(--sbc-dark-variant);
+          text-transform: uppercase;
+          background-color: var(--fbc-dark-variant);
+          padding: 0.8rem;
+          text-align: center;
+          font-size: 0.8rem;
+          border-radius: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+  
+          img {
+              width: 25px;
+          }
+        }
+  
+        a:hover {
+          transition: 0.8s ease;
+          transform: scale(1.02);
+          background-color: var(--tbc-light-variant);
+          color: var(--sbc-light-variant);
         }
       }
-
-      a:hover {
-        transition: 0.8s ease;
-        transform: scale(1.02);
-        background-color: var(--tbc-light-variant);
-        color: var(--sbc-light-variant);
-      }
     }
+  }
+
+  .project-card:hover{
+    transform: scale(1.11);
+    background-color: var(--card-bg-hover);
   }
 }

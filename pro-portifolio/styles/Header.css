@@ -3,21 +3,21 @@ header {
   padding: 0rem 2rem;
   margin: 1rem 0rem;
   border-radius: 3rem;
-  border: 1px solid var(--fbc-light-variant);
+  border: 1px solid var(--sbc-dark-variant);
   background-color: var(--header-bg);
   backdrop-filter: blur(8px);
   position: fixed;
   z-index: 1;
-  animation: header-appear 3s ease;
+  animation: header-appear 2.5s ease;
 
   nav {
     gap: 2rem;
 
     a {
       color: var(--sbc-light-variant);
-      font-size: 1.2rem;
+      font-size: 1rem;
       font-weight: 100;
-      padding: 0.8rem 0.5rem;
+      padding: 0.5rem 0.5rem;
       border-radius: 50px;
       border-bottom: 2px solid transparent;
       opacity: 0.5;

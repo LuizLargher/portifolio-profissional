@@ -4,8 +4,10 @@ import '../styles/index.css'
 import About from '../components/About.jsx'
 import Header from '../components/Header.jsx'
 import Hero from '../components/Hero.jsx'
-import Exp from '../components/Exp.jsx'
 import Project from '../components/Project.jsx'
+import Skill from '../components/Skill.jsx'
+import Contact from '../components/Contact.jsx'
+import Footer from '../components/Footer.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -13,6 +15,8 @@ createRoot(document.getElementById('root')).render(
     <Hero />
     <About />
     <Project />
-    <Exp />
+    <Skill />
+    <Contact />
+    <Footer />
   </StrictMode>,
 )

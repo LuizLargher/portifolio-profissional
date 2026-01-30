@@ -1,0 +1,30 @@
+#skills {
+    max-width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0rem 5rem 0rem;
+    animation: 2s appear ease-in-out;
+    
+    .skill-container {
+        margin: 1rem;
+        flex-wrap: wrap;
+        gap: 0.3rem;
+
+        span {
+            background-color: var(--first-base-color);
+            padding: 0.5rem 1rem;
+            margin: 0.1rem 0rem;
+            border-radius: 10px;
+            border: 1px solid var(--fbc-light-variant);
+
+        }
+
+        span:hover {
+            transform: translateY(-0.5rem);
+            transition: 0.5s ease;
+            background-color: var(--fbc-light-variant);
+        }
+    }
+}

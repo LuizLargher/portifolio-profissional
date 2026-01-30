@@ -3,7 +3,7 @@
   background: var(--about-bg);
   backdrop-filter: blur(8px);
   border-radius: 10px;
-  margin: 10rem 0rem;
+  margin: 5rem 0rem;
   animation: boom 3s ease;
   box-shadow: 0rem 0rem 1rem var(--tbc-dark-variant);
 

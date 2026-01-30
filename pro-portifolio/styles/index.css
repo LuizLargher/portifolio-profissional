@@ -38,9 +38,10 @@
   --third-base-color: #2a006e;
   --tbc-light-variant: #4700b9;
 
-  --header-bg: rgba(28, 28, 28, 0.7);
+  --header-bg: rgba(51, 51, 51, 0.7);
   --about-bg: rgba(78, 78, 78, 0.3);
   --card-bg: rgba(255, 255, 255, 0.1);
+  --card-bg-hover: rgba(140, 35, 253, 0.4);
 }
 
 .container {
@@ -123,7 +124,7 @@
     opacity: 0;
   }
   100% {
-    width: 48%;
+    width: 43%;
     opacity: 1;
   }
 }
