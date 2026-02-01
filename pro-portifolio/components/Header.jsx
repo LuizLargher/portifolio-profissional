@@ -8,8 +8,7 @@ function Header() {
           <a href="#about">Sobre</a>
           <a href="#projects">Projetos</a>
           <a href="#skills">Habilidades</a>
-          <a href="#exp">Experiências</a>
-          <a href="#">Contato</a>
+          <a href="#contacts">Contato</a>
         </nav>
       </header>
     </>
