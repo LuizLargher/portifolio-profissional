@@ -8,7 +8,7 @@ function Project() {
           <h2 className="shine">projetos</h2>
           <div className="carousel">
             <article className="project-card container">
-              <img src="../public/img/F1.jpg" alt="" />
+              <img src="../public/static/images/F1.jpg" alt="" />
               <h2>TGR Haas F1 Team</h2>
               <div className="container">
                 <p>
@@ -19,18 +19,18 @@ function Project() {
                 </p>
                 <div className="container">
                     <a href="">
-                        <img src="../public/icons/link.svg" alt="github isotipo"/>
+                        <img src="../public/static/icons/link.svg" alt="github isotipo"/>
                         <span>link projeto</span>
                     </a>
                     <a href="">
-                        <img src="../public/icons/github.svg" alt="github isotipo"/>
+                        <img src="../public/static/icons/github.svg" alt="github isotipo"/>
                         <span>repositório</span>
                     </a>
                 </div>
               </div>
             </article>
             <article className="project-card container">
-              <img src="../public/img/sf26.jpg" alt="" />
+              <img src="../public/static/images/sf26.jpg" alt="" />
               <h2>Scuderia Ferrari HP</h2>
               <div className="container">
                 <p>
@@ -41,18 +41,18 @@ function Project() {
                 </p>
                 <div className="container">
                     <a href="">
-                        <img src="../public/icons/link.svg" alt="github isotipo"/>
+                        <img src="../public/static/icons/link.svg" alt="github isotipo"/>
                         <span>link projeto</span>
                     </a>
                     <a href="">
-                        <img src="../public/icons/github.svg" alt="github isotipo"/>
+                        <img src="../public/static/icons/github.svg" alt="github isotipo"/>
                         <span>repositório</span>
                     </a>
                 </div>
               </div>
             </article>
             <article className="project-card container">
-              <img src="../public/img/r26.jpg" alt="" />
+              <img src="../public/static/images/r26.jpg" alt="" />
               <h2>Audi Revolut F1 Team</h2>
               <div className="container">
                 <p>
@@ -63,11 +63,11 @@ function Project() {
                 </p>
                 <div className="container">
                     <a href="">
-                        <img src="../public/icons/link.svg" alt="github isotipo"/>
+                        <img src="../public/static/icons/link.svg" alt="github isotipo"/>
                         <span>link projeto</span>
                     </a>
                     <a href="">
-                        <img src="../public/icons/github.svg" alt="github isotipo"/>
+                        <img src="../public/static/icons/github.svg" alt="github isotipo"/>
                         <span>repositório</span>
                     </a>
                 </div>
@@ -75,7 +75,7 @@ function Project() {
             </article>
 
             <article className="project-card container">
-              <img src="../public/img/w17.jpg" alt="" />
+              <img src="../public/static/images/w17.jpg" alt="" />
               <h2>Mercedes-AMG Petronas F1 Team</h2>
               <div className="container">
                 <p>
@@ -86,7 +86,7 @@ function Project() {
                 </p>
                 <div className="container">
                     <a href="">
-                        <img src="../public/icons/link.svg" alt="github isotipo"/>
+                        <img src="../public/static/icons/link.svg" alt="github isotipo"/>
                         <span>link projeto</span>
                     </a>
                     <a href="">
@@ -97,7 +97,7 @@ function Project() {
               </div>
             </article>
             <article className="project-card container">
-              <img src="../public/img/rb22.jpg" alt="" />
+              <img src="../public/static/images/rb22.jpg" alt="" />
               <h2>Oracle Red Bull Racing</h2>
               <div className="container">
                 <p>
@@ -108,18 +108,18 @@ function Project() {
                 </p>
                 <div className="container">
                     <a href="">
-                        <img src="../public/icons/link.svg" alt="github isotipo"/>
+                        <img src="../public/static/icons/link.svg" alt="github isotipo"/>
                         <span>link projeto</span>
                     </a>
                     <a href="">
-                        <img src="../public/icons/github.svg" alt="github isotipo"/>
+                        <img src="../public/static/icons/github.svg" alt="github isotipo"/>
                         <span>repositório</span>
                     </a>
                 </div>
               </div>
             </article>
             <article className="project-card container">
-              <img src="../public/img/vcarb03.jpg" alt="" />
+              <img src="../public/static/images/vcarb03.jpg" alt="" />
               <h2>Visa Cash App Racing Bulls F1 Team</h2>
               <div className="container">
                 <p>
@@ -130,11 +130,11 @@ function Project() {
                 </p>
                 <div className="container">
                     <a href="">
-                        <img src="../public/icons/link.svg" alt="github isotipo"/>
+                        <img src="../public/static/icons/link.svg" alt="github isotipo"/>
                         <span>link projeto</span>
                     </a>
                     <a href="">
-                        <img src="../public/icons/github.svg" alt="github isotipo"/>
+                        <img src="../public/static/icons/github.svg" alt="github isotipo"/>
                         <span>repositório</span>
                     </a>
                 </div>

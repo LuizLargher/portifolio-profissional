@@ -5,7 +5,7 @@ function Hero() {
     <>
       <section id="hero" className="container">
         <div className="perfil">
-          <img src="../public/img/perfil.png" alt="perfil" />
+          <img src="../public/static/images/perfil.png" alt="perfil" />
         </div>
         <div className="hero-conjunto container">
           <div className="info">
@@ -16,14 +16,14 @@ function Hero() {
             </p>
           </div>
           <div className="links">
-            <a href="../public/cv-lg-1912.pdf" download={true} title="Download CV">
-              <img src="../public/icons/download.svg" alt="download" />
+            <a href="../public/static/cv-lg-1912.pdf" download={true} title="Download CV">
+              <img src="../public/static/icons/download.svg" alt="download" />
             </a>
             <a href="https://github.com/LuizLargher" target="_blank" title="GitHub">
-              <img src="../public/icons/github.svg" alt="github isotipo"/>
+              <img src="../public/static/icons/github.svg" alt="github isotipo"/>
             </a>
             <a href="https://www.linkedin.com/in/lg-larghergomes/" target="_blank" title="LinkedIn" >
-              <img src="../public/icons/linkedin.svg" alt="linkedin isotipo" />
+              <img src="../public/static/icons/linkedin.svg" alt="linkedin isotipo" />
             </a>
           </div>
         </div>
